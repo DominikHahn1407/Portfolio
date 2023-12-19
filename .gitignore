@@ -1,0 +1,5 @@
+# Ignore all "Data" folders
+**/Data/
+
+# Ignore all files inside "Data" folders
+**/Data/*
