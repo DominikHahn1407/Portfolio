@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.content {
+    width: 400px;
+    text-align: center;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+
+#content {
+    width: 70%;
+}
