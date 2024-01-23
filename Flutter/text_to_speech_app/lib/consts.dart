@@ -1,2 +1,2 @@
 String TTS_INPUT =
-    "In the first law, an object will not change its motion unless a force acts on it";
+    "The mysterious moonlight painted the tranquil lake with silver hues, casting enchanting reflections that whispered secrets to the ancient trees standing guard along the shore";
