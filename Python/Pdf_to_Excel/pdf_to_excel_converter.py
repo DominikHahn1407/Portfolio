@@ -2,7 +2,7 @@ import tabula
 import pdfplumber
 import pandas as pd
 
-pdf_path = 'CA HT CAROLINE.pdf'
+pdf_path = 'test.pdf'
 
 def tabula():
     tables = tabula.read_pdf(pdf_path, pages='all', multiple_tables=True)

@@ -3,3 +3,15 @@
 
 # Ignore all files inside "Data" folders
 **/Data/*
+
+# Ignore virtual environment
+/.venv
+
+# Ignore all subfolders within .venv
+/.venv/*
+
+# Ignore environmental variables
+.env
+
+# Ignore Firebase Service
+service_account.json
