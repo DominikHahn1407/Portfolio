@@ -12,6 +12,13 @@ class MongoDB():
         self.db = self.cluster["UserData"]
         self.collection = self.db["python_mongo"]
 
+    def get_data(self):
+        cursor = self.collection.find({})
+        data = []
+        for document in cursor:
+            data.append(document)
+        return data
+
     def insert_data(self, data):
         self.collection.insert_one(data)
 
@@ -34,3 +41,4 @@ mongo.delete_data({"_id": 100, "user_name": "Dirk"})
 mongo.insert_data_multiple([{"_id": 0, "user_name": "Peter"}, {
                            "_id": 100, "user_name": "Dirk"}])
 mongo.update_data(0, {"user_name": "Agathe"})
+print(mongo.get_data())
